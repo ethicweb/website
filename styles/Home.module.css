@@ -1,0 +1,97 @@
+
+.titleXxl {
+ font-size: 3rem;
+ font-weight: 600;
+}
+
+.titleXl {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.titleL {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.titleMd {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.textRegular {
+  font-size: 1rem;
+  font-weight: 200;
+}
+
+.button {
+  margin: .5rem 0 .5rem 0;
+  padding: .5rem;
+  width: 80%;
+  transition: all ease .3s;
+  border: solid var(--grey) 2px;
+  border-radius: 5px; 
+  cursor:pointer;
+  font-weight: 300;
+}
+.button:hover {
+  background-color: var(--grey);  
+  color: var(--white);
+}
+.button:active {
+  animation: buttonAnimate;
+  transition: ease-in-out;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes buttonAnimate {
+  0% {
+    
+  }
+  50% {
+    transform: scaleX(200%);
+  }
+  100% {
+    transform: scaleX(-100%);
+    opacity: 0;
+  }
+}
+
+.buttonsContainer {
+  padding-top: 0rem;
+  place-self: start stretch;
+}
+
+.flexContainerCol {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mainGridContainer {
+  display: grid;
+  position: relative;
+  grid-template-rows: 2fr 1.5fr;
+  height: 100vh;
+  z-index: 1000;
+}
+
+.titleBlock {
+  grid-column: 1/1;
+  place-self: center center;
+}
+.titleBlock>* {
+ margin: 0;
+ width: 80%;
+ text-align: center;
+}
+.titleBlock>:nth-child(3) {
+margin-top: 1.5rem;
+}
+
+@media (min-width: 500px) {
+  .button {
+    width: 30%;
+  }
+}
