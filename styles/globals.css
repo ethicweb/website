@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+
 :root {
  --grey: rgb(50,50,50);
  --white: rgb(220,220,220);
  --brown: rgb(110, 104, 100);
+ --deepblue: rgb(25, 63, 119);
+ --deepgreen: rgb(61, 92, 53);
+ --script: 'Square Peg', cursive;
 }
 
 html,

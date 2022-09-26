@@ -35,28 +35,7 @@ const AnimatedShape = () => {
             <li></li>
             <li></li>
             <li></li>
-        </ul>
-{/*         {
-            Array.apply(null, Array(randomCount))
-                .map((element, index) => index)
-                .map((item) => {
-                    console.log(item)
-                    return(
-                    <div 
-                        key={item}
-                        className={styles.test + " " + "doubleTest"}
-                        style={{
-                            left: item + getRandomNumber(300),
-                            bottom: item - getRandomNumber(500)
-                        }}
-                            >
-                    </div>
-                    )
-                })
-            
-            
-        } */}
-        
+        </ul>        
         </>
         )
 }
