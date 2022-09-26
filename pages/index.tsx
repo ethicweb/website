@@ -34,7 +34,7 @@ const Home: NextPage = () => {
     <div className={styles.mainGridContainer}>
       
       <div className={styles.flexContainerCol + " " + styles.titleBlock}>
-        <h1 className={styles.titleXxl}>{HERO_TEXT.NAME.toUpperCase()}</h1>
+        <h1 className={styles.titleXxl}>{HERO_TEXT.NAME}</h1>
         <h2 className={styles.titleXl}>{HERO_TEXT.TITLE}</h2>
         <p>{HERO_TEXT.INTRO}</p>
       </div>   

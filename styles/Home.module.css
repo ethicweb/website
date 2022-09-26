@@ -92,6 +92,10 @@
   place-self: center center;
   width: 100%;
 }
+.titleBlock h1 {
+  font-family: var(--script);
+  font-size: 5rem;
+}
 .titleBlock>* {
  margin: 0;
  width: 80%;
