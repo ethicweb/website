@@ -4,7 +4,7 @@ import { HERO_TEXT } from '../../shared/text/hero.text'
 import { NAVBAR_TEXT } from '../../shared/text/navbar.text'
 
 const HeroPage: NextPage = () => {
-
+ 
 
 
     return(
