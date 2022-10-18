@@ -1,5 +1,5 @@
 export const HERO_TEXT = {
-    NAME: "Ethicweb",
+    NAME: "L'écolieu du web",
     TITLE : "Développeur Web",
-    INTRO : `Site vitrines et e-commerce sur mesure pour entrepreneurs éthiques`
+    INTRO : `L'agence web des écoentrepreneurs`
 }

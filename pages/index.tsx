@@ -8,6 +8,8 @@ import AnimatedShape from '../components/AnimatedShape.animation'
 import { HERO_TEXT } from '../shared/text/hero.text'
 import { NAVBAR_TEXT } from '../shared/text/navbar.text'
 import styles from '../styles/Home.module.css'
+import HeroPage from './hero.page/hero.page'
+
 
 const Home: NextPage = () => {
 
@@ -31,6 +33,7 @@ const Home: NextPage = () => {
     <link rel="preconnect" href="https://fonts.gstatic.com"/>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet"/>
     </Head>
+    <HeroPage></HeroPage>
     <div className={styles.mainGridContainer}>
       
       <div className={styles.flexContainerCol + " " + styles.titleBlock}>
